@@ -96,8 +96,8 @@ namespace MicroExpressions
 
         ~MicroExpression()
         {
-            Expression.Dispose();
-            Face.Dispose();
+            Expression?.Dispose();
+            Face?.Dispose();
         }
 
         public void Show(int min_time, int max_time, int expression_time)
